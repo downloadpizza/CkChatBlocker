@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ckchatblocker",
+  "version": "${version}",
+  "name": "Ckchatblocker",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ckchatblocker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.downloadpizza.ckchatblocker.CkChatBlocker"
+    ]
+  },
+  "mixins": [
+    "ckchatblocker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": ["1.16.4", "1.16.5"]
+  }
+}
